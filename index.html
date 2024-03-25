@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <main id="content">
+
+        <section class="content-form">
+    
+            <form action="">
+                <h1>Survey Form</h1>
+                <input class="form" type="text" id="name" name="name" placeholder="Name" />
+                <input class="form" type="email" id="email" name="email" placeholder="Email" />
+                <input class="form" type="number" name="age" id="age" placeholder="Age" />
+                <p class="questions"> Which option best describes you?</p>
+
+                <select  class="form" id="description" name="description">
+                    <option>programmer</option>
+                    <option selected>Student</option>
+                    <option>impostor</option>
+                </select>
+    
+                <div class="question">
+                    <p class="questions">Would you recommend this site?</p>
+    
+                    <input type="radio" name="recomendation" value="yes"> Yes<br>
+    
+                    <input type="radio" name="recomendation" value="no"> No<br>
+    
+                    <input type="radio" name="recomendation" value="Maybe"> Maybe<br>
+    
+    
+                </div>
+                <div class="question">
+                    <p class="questions">Lenguaje and Frameworks known </p>
+                    <input type="checkbox" name="languages" value="c++"> C++<br>
+                    <input type="checkbox" name="languages" value="python"> Python<br>
+                    <input type="checkbox" name="languages" value="java"> Java<br>
+                    <input type="checkbox" name="languages" value="angular"> Angular<br>
+                    <input type="checkbox" name="languages" value="react"> React<br>
+                    <input type="checkbox" name="languages" value="spring"> Spring<br>
+                    <input type="checkbox" name="languages" value="javascript"> JavaScript<br>
+                    <input type="checkbox" name="languages" value="vue"> Vue<br>
+                    <input type="checkbox" name="languages" value="html"> Html<br>
+                    <input type="checkbox" name="languages" value="css"> Css<br>
+                </div>
+    
+                <div id="comments">
+                    <p class="questions">Any Comments or Suggestions</p>
+                    <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+                </div>
+    
+                <button id="btn"> Submit</button>
+            </form>
+        </section>
+    </main>
+    </body>
+    </html>
+</body>
+</html>
